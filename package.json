@@ -7,8 +7,8 @@
     "client": "webpack serve --devtool inline-source-map --hot --config webpack.client.config.js"
   },
   "dependencies": {
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
