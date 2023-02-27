@@ -1,28 +1,19 @@
 {
-  "name": "graphbook-react",
+  "name": "prompts-node-covert-video",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "git@github.com:wuzhe0912/prompts-node-covert-video.git",
+  "author": "Pitt Wu <kgb00128@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "client": "webpack serve --devtool inline-source-map --hot --config webpack.client.config.js"
-  },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.11.2"
+  },
+  "scripts": {
+    "dev:server": "nodemon server/app.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.2",
-    "@babel/preset-env": "^7.18.2",
-    "@babel/preset-react": "^7.17.12",
-    "babel-loader": "^8.2.5",
-    "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "^6.7.1",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.5.0",
-    "style-loader": "^3.3.1",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.73.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.9.1"
+    "nodemon": "^2.0.20"
   }
 }
